@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="img/head.png" type="image/png" />
+    <title>EDUCATORY</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/reachus.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+  <div class="container-contact100">
+		<div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
+    <div class="wrap-contact100">
+				<span class="contact100-form-title">
+					Contact Us
+				</span> 
+        <div class="container">
+          <form action="https://formspree.io/f/xknpvznr" method="POST" id="my-form">
+      
+            <div class="form-group">
+              <label for="firstName"> First Name</label>
+              <input type="text" id="firstName" name="firstName">
+            </div>
+      
+            <div class="form-group">
+              <label for="latsName">Last Name</label>
+              <input type="text" id="lastName" name="lastName">
+            </div>
+      
+            <div class="form-group">
+              <label for="email"> Your Email</label>
+              <input type="email" id="email" name="email">
+            </div>
+      
+            <div class="form-group">
+              <label for="massage">Your Message</label>
+              <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+            </div>
+      
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+    
+        <div id="status"></div>
+        </div>
+       </div>
+       <!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+  <!--===============================================================================================-->
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+  <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+  <!--===============================================================================================-->
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+  <!--===============================================================================================-->
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+  <!--===============================================================================================-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+    <script src="js/map-custom.js"></script>
+      <script src="js/reachus.js"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
